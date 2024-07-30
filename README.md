@@ -14,7 +14,7 @@
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- <https://github.com/jurakovic/Comets>
 	- <https://github.com/jurakovic/Comets-Archive>
-- ⭕ [OrbitViewer.NET](https://jurakovic.github.io/OrbitViewer.NET/)
+- 🪐 [OrbitViewer.NET](https://jurakovic.github.io/OrbitViewer.NET/)
 	- C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
 	- <https://github.com/jurakovic/OrbitViewer.NET>
 - 🔋 PowerTimer
