@@ -1,5 +1,9 @@
 
-### Hi there 👋
+<p align="center">
+	<a href="https://github.com/jurakovic">
+		<img align="center" src="dave.png" alt="jurakovic" width="300" />
+	</a>
+</p>
 
 - ⭐ [dev-links](https://jurakovic.github.io/dev-links/)
 	- a collection of useful .NET, architecture, and general software development links
