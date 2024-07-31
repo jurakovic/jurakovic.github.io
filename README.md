@@ -4,7 +4,7 @@
 		<img align="center" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17744091?v=4&h=300&w=300&fit=cover&mask=circle&maxage=1d" alt="jurakovic" style="width:260px" />
 	</a>
 </p>
-</br>
+<br>
 
 #### Technologies / Tools / Skills
 
@@ -53,4 +53,4 @@
 
 #### Language Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java)
