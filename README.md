@@ -1,7 +1,7 @@
 
 <p align="center">
 	<a href="https://github.com/jurakovic">
-		<img align="center" src="https://avatars.githubusercontent.com/u/17744091" alt="jurakovic" style="width:260px; border-radius: 50%" />
+		<img align="center" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17744091?v=4&h=300&w=300&fit=cover&mask=circle&maxage=1d" alt="jurakovic" style="width:260px" />
 	</a>
 </p>
 </br>
