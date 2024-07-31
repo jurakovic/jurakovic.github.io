@@ -1,9 +1,11 @@
 
 <p align="center">
 	<a href="https://github.com/jurakovic">
-		<img align="center" src="dave.png" alt="jurakovic" width="300" />
+		<img align="center" src="https://avatars.githubusercontent.com/u/17744091" alt="jurakovic" style="width:260px; border-radius: 50%" />
 	</a>
 </p>
+</br>
+</br>
 
 - ⭐ [dev-links](https://jurakovic.github.io/dev-links/)
 	- a collection of useful .NET, architecture, and general software development links
