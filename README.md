@@ -21,7 +21,7 @@
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square               &logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square                              &logo=docker&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square                          &logo=kubernetes&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Bash-311C87?style=flat-square                                &logo=gnubash&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Shell-311C87?style=flat-square                               &logo=gnubash&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Git-F05032?style=flat-square                                 &logo=git&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square                             &logo=jenkins&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-DevOps-DD0031?style=flat-square                              &logoColor=white" />
@@ -50,3 +50,7 @@
 - 🔋 PowerTimer
 	- small Windows shut down timer
 	- <https://github.com/jurakovic/PowerTimer>
+
+#### Language Stats
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark)
