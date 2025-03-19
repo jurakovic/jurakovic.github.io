@@ -36,16 +36,18 @@ jq -c '.projects[]' "$json" | while read i; do
   pages=$(echo "$i" | jq -r '.pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
 
-  echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
+  if [ "$pages" == "true" ]
+  then
+    echo "- $icon [$repo](https://$user.github.io/$repo/)" >> $readme
+  else
+	echo "- $icon $repo" >> $readme
+  fi
 
   for line in "${descr[@]}"; do
     echo "	- $line" >> $readme
   done
 
-  if [ $pages == "true" ]
-  then
-    echo "	- <https://$user.github.io/$repo/>" >> $readme
-  fi
+  echo "	- <https://github.com/$user/$repo>" >> $readme
 done
 
 cat << EOF >> $readme
