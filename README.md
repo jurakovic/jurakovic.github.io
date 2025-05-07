@@ -49,9 +49,9 @@
 - 🆔 [guidreplace](https://jurakovic.github.io/guidreplace/)
 	- a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input
 	- <https://github.com/jurakovic/guidreplace>
-- 🕗 [timestamp-copy](https://jurakovic.github.io/timestamp-copy/)
+- 🕗 [TimestampCopy](https://jurakovic.github.io/TimestampCopy/)
 	- Windows File Explorer context menu to copy and paste file and folder timestamps
-	- <https://github.com/jurakovic/timestamp-copy>
+	- <https://github.com/jurakovic/TimestampCopy>
 - ☄ [Comets](https://jurakovic.github.io/Comets/)
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- <https://github.com/jurakovic/Comets>
