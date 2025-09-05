@@ -1,5 +1,42 @@
-<!-- start extras head snippets, customize with your own _includes/head-extras.html file -->
+<style>
+	.responsive-image {
+		max-width: 100%;
+		height: auto;
+	}
 
-{% include head-custom-css.html %}
+	@media (max-width: 768px) {
+		.responsive-image {
+			width: 40%;
+		}
+	}
+</style>
+<script>
+	function updateLangStatsSrc(theme) {
+		const img = document.getElementById('logo-img');
+		// Dark and light srcs
+		const darkSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed";
+		const lightSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java";
+		const defaultSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed";
 
-<!-- end extras head snippets -->
+		if (theme === 'dark') {
+			img.src = darkSrc;
+		} else if (theme === 'light') {
+			img.src = lightSrc;
+		} else {
+			img.src = defaultSrc;
+			//// 'auto': Use prefers-color-scheme if supported, fallback to default
+			//if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			//	img.src = darkSrc;
+			//} else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+			//	img.src = lightSrc;
+			//} else {
+			//	img.src = defaultSrc;
+			//}
+		}
+	}
+	document.addEventListener('themechange', function (e) {
+		const theme = e.detail.theme;
+		// update picture based on theme
+		updateLangStatsSrc(theme);
+	});
+</script>
