@@ -13,25 +13,37 @@
 <script>
 	function updateLangStatsSrc(theme) {
 		const img = document.getElementById('lang-stats');
-		// Dark and light srcs
+		const sourceDark = document.getElementById('lang-stats-src-dark');
+		const sourceLight = document.getElementById('lang-stats-src-light');
+
 		const darkSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed";
 		const lightSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java";
 		const defaultSrc = "https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed";
 
 		if (theme === 'dark') {
+			sourceDark.srcset = darkSrc;
+			sourceLight.srcset = '';
 			img.src = darkSrc;
 		} else if (theme === 'light') {
+			sourceDark.srcset = '';
+			sourceLight.srcset = lightSrc;
 			img.src = lightSrc;
 		} else {
+			// auto, use media queries
+			sourceDark.srcset = darkSrc;
+			sourceLight.srcset = lightSrc;
+			// let browser choose, fallback src for safety
 			img.src = defaultSrc;
-			//// 'auto': Use prefers-color-scheme if supported, fallback to default
-			//if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			//	img.src = darkSrc;
-			//} else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-			//	img.src = lightSrc;
-			//} else {
-			//	img.src = defaultSrc;
-			//}
+		}
+
+		// Force picture reload
+		img.src = img.src; // re-assign to trigger reload in some browsers
+		if (typeof img.currentSrc !== "undefined" && img.currentSrc !== img.src) {
+			img.src = "";
+			setTimeout(() => {
+				img.src = theme === 'dark' ? darkSrc :
+					theme === 'light' ? lightSrc : defaultSrc;
+			}, 0);
 		}
 	}
 	document.addEventListener('themechange', function (e) {
