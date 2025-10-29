@@ -33,5 +33,5 @@ jobs:
           if [ $? -eq 0 ]; then echo "No git changes"; exit 0; fi
 
           git commit -m "Update Readme"
-          #git push
+          git push
         shell: bash {0}
