@@ -1,7 +1,9 @@
 #!/bin/bash
 
+curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/build/data.json
+
 user="jurakovic"
-json="../jurakovic/data.json"
+json="data.json"
 readme="README.md"
 
 cat << EOF > $readme
