@@ -35,6 +35,7 @@ jq -c '.projects[]' "$json" | while read i; do
   icon=$(echo "$i" | jq -r '.icon')
   pages=$(echo "$i" | jq -r '.pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
+  mapfile -t pagesRepo < <(echo "$i" | jq -r '.pagesRepo[]?')
 
   if [ "$pages" == "true" ]
   then
@@ -48,6 +49,10 @@ jq -c '.projects[]' "$json" | while read i; do
   done
 
   echo "	- <https://github.com/$user/$repo>" >> $readme
+
+  for line in "${pagesRepo[@]}"; do
+    echo "	- $line" >> $readme
+  done
 done
 
 cat << EOF >> $readme
