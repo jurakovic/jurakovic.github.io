@@ -24,7 +24,7 @@ jobs:
 
       - name: Build
         run: |
-          curl -Sso build.sh https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/build/build.sh
+          curl -Sso build.sh https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/build.sh
           chmod +x ./build.sh
 
           ./build.sh
