@@ -44,6 +44,9 @@
 - ⛈ [meteo](https://jurakovic.github.io/meteo/)
     - a compilation of Croatia and Europe weather radar and satellite images
     - <https://github.com/jurakovic/meteo>
+- 🪾 [view-all-branches](https://jurakovic.github.io/view-all-branches/)
+    - a browser extension that takes you directly to the 'All Branches' page
+    - <https://github.com/jurakovic/view-all-branches>
 - 🔑 [2fa-cli](https://jurakovic.github.io/2fa-cli/)
     - a simple 2FA command-line utility
     - <https://github.com/jurakovic/2fa-cli>
