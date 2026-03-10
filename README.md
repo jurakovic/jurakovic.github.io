@@ -44,6 +44,8 @@
 
 &nbsp; ⛈ [**meteo**](https://jurakovic.github.io/meteo/) / a compilation of Croatia and Europe weather radar and satellite images ([GitHub](https://github.com/jurakovic/meteo))
 
+&nbsp; ⛽ [**premium-fuel**](https://jurakovic.github.io/premium-fuel/) / find INA gas stations selling premium fuel at the regular fuel price ([GitHub](https://github.com/jurakovic/premium-fuel))
+
 &nbsp; 🌳 [**view-all-branches**](https://jurakovic.github.io/view-all-branches/) / a browser extension that takes you directly to the 'All Branches' page
 
 &nbsp; 🔑 [**2fa-cli**](https://jurakovic.github.io/2fa-cli/) / a simple 2FA command-line utility
