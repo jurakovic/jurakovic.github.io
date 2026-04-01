@@ -56,6 +56,8 @@
 
 &nbsp; 🕗 [**TimestampCopy**](https://jurakovic.github.io/TimestampCopy/) / Windows File Explorer context menu to copy and paste file and folder timestamps
 
+&nbsp; 🌕 [**Celestia**](https://jurakovic.github.io/Celestia/) / [Celestia 1.6.x](https://github.com/CelestiaProject/Celestia/tree/1.6.x) fork with added support for parabolic and hyperbolic comet orbits
+
 &nbsp; ☄ [**Comets**](https://jurakovic.github.io/Comets/) / comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 
 &nbsp; 🪐 [**OrbitViewer.NET**](https://jurakovic.github.io/OrbitViewer.NET/) / C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
